@@ -9,5 +9,3 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 	> cd ReduxSimpleStarter
 	> npm install
 	> npm start
-```
-```
