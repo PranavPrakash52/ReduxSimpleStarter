@@ -1,7 +1,13 @@
-const Nt=function()
+const nt = function()
 {
 	return[{title:'javascript'},{title:'ruby on rails'},{title:'django'}
 	];
 }
 
-export default Nt;
+const nt1 = function()
+{
+	return[{title:'javascript'},{title:'ruby'},{title:'django'}
+	];
+}
+
+export default nt1

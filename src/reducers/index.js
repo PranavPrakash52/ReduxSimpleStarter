@@ -1,8 +1,16 @@
 import { combineReducers } from 'redux';
-import Breducer from './reducer_books';
+import nt1 from './reducer_books';
+import Active_books from './activebook';
 
 const RootReducer=combineReducers({
-books:Breducer
+book:nt1,
+activebook:Active_books
+// books:nt1
+});
+const RootReducerr=combineReducers({
+books:nt1,
+activebook:Active_books
+// books:nt1
 });
 
-export default RootReducer;
+export default RootReducerr;

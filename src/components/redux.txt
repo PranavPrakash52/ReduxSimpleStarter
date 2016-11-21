@@ -1,0 +1,8 @@
+1----{bundle.js:2288 Warning: React.createElement: type should not be null, undefined, boolean, or number. It should be a string (for DOM elements) or a ReactClass (for composite components).warning @ bundle.js:2288createElement @ bundle.js:19559(anonymous function) @ bundle.js:83__webpack_require__ @ bundle.js:20(anonymous function) @ bundle.js:47__webpack_require__ @ bundle.js:20(anonymous function) @ bundle.js:40(anonymous function) @ bundle.js:43
+
+bundle.js:1204 Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.(…)}-----------------------a function or object is not exported
+
+2-----class name should be capital
+
+
+3--------bundle.js:21920 Uncaught TypeError: Cannot read property 'props' of undefined(…)------------this should be passed with map function;;
